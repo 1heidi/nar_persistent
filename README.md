@@ -2,7 +2,7 @@
 ### TABLE OF CONTENTS
 ---------------------
 
-* [create an anchor](#DATASET TITLE)
+* DATASET TITLE
 * AUTHORS AND AFFILIATIONS
 * LANGUAGE
 * SUMMARY/ABSTRACT
