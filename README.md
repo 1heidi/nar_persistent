@@ -132,7 +132,6 @@ online databases; research infrastructure; sustainability; data sharing, molecul
 * RStudio 1.0.136
 * Platform: x86_64-apple-darwin13.4.0 (64-bit)
 * Running under: OS X El Capitan 10.11.6
-
 * Attached base packages:
   * stats     
   * graphics  
@@ -141,7 +140,6 @@ online databases; research infrastructure; sustainability; data sharing, molecul
   * datasets  
   * methods   
   * base     
-
 * Other attached packages:
   * moments_0.14    
   * bindrcpp_0.2.2 
