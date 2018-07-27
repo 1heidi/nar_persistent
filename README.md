@@ -153,22 +153,22 @@ online databases; research infrastructure; sustainability; data sharing, molecul
 
 #### There are 4 scripts that work sequentially:
 
-**STEP 1** Purpose: Descriptive stats for databases the 105 databases >15 years old as found in original nar study
+**STEP 1** SAMPLE Purpose: Descriptive stats for databases >15 years old as found in original NAR study
    * Package(s): tidyverse
    * Input file(s):  nar_v20_7.csv, nar_v20.csv, nar_id_mapping.csv
    * Output file(s): nar_v20_pers_1.csv
    
-**STEP 2** Purpose: Reshape and calculate funder-level metrics for both individual organizations and organizational types
+**STEP 2** FUNDERS Purpose: Reshape and calculate funder-level metrics for both individual organizations and organizational types
    * Package(s): tidyverse, moments
    * Input file(s): nar_v20_pers_2.csv, nar_pers_funder_codes.csv
    * Output file(s): nar_v20_pers_2_supp_tab1.csv (for table 1 and supp table 1), nar_v20_pers_2_supp_tab2.csv, nar_v20_pers_2_plot.csv, Figure_1_Funders.TIFF
 
-**STEP 3** Purpose: Reshape and calculate host(operator)-level metrics
+**STEP 3** HOSTS Purpose: Reshape and calculate host(operator)-level metrics
    * Package(s): tidyverse, moments 
    * Input file(s): nar_v20_pers_2.csv
    * Output file(s): nar_v20_pers_3_plot.csv, nar_v20_pers_2_supp_tab3.csv, Figure_2B_Hosts.TIFF
 
-**STEP 4** Purpose: Reshape and calculate host (operator) country-level metrics
+**STEP 4** COUNTRIES Purpose: Reshape and calculate host (operator) country-level metrics
    * Package(s): tidyverse, moments
    * Input file(s): nar_v20_pers_2.csv
    * Output file(s): nar_v20_pers_4_plot.csv, Figure_2A_Countries.TIFF
