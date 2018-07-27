@@ -59,23 +59,24 @@ online databases; research infrastructure; sustainability; data sharing, molecul
     * nar_v20.csv
     * nar_v20_7.csv
   
-* The initial input data files are nar_v20_7.csv, nar_v20.csv, and nar_id_mapping.csv, which are used to 1) identify databases that have remained available >15 since having a debut article published in NAR and 2) retrieve the global article identifers (usually DOI) those database's most recent NAR article.
+* The initial input data files are nar_v20_7.csv, nar_v20.csv, and nar_id_mapping.csv.
 
-* Each script is named for its step in the analysis process, with an additional short descriptor (see also “DATA ANALYSIS” section below). As data was reshaped and analyzed, scripts created subsequent CSV files which are named accordingly, e.g., STEP_1_v20_pers_Sample.R created nar_v20_pers_1.csv. 
+* Each script is named for its step in the analysis process, with an additional short descriptor (see also “DATA ANALYSIS” section below). As data was reshaped and analyzed, scripts created subsequent CSV files which are named accordingly, e.g., STEP_1_v20_pers_Sample.R created nar_v20_pers_1.csv from the initial input files.
+
+* In file names, "pers" stands for "persistent" to distinquish this sub-project from the first NAR census study already reported.
 
 * CSV files appended with “plot” are the exact data used for plots in article figures. 
 
 * CSV files appended with “supp_tab” are the exact data used for article tables and supplemental tables.
 
 * Files necessary to create Figures
-  * Figure 1 
+  * Figure 1 STEP_2_v20_pers_Funders.R & nar_v20_pers_2_plot.csv
   * Figure 2 
 
 * Files necessary to create Tables
-  * Table 1: 
+  * Table 1 and Supplemental Table 1: STEP_2_v20_pers_Funders.R & nar_v20_pers_2_supp_tab1.csv
   * Table 2:
-  * Supplemental Table 1:
-  * Supplemental Table 2:
+  * Supplemental Table 2: STEP_2_v20_pers_Funders.R & nar_v20_pers_2_supp_tab2.csv
   * Supplemental Table 3:
 
 ### DATASET DESCRIPTION 
@@ -94,21 +95,30 @@ online databases; research infrastructure; sustainability; data sharing, molecul
 
 * Variables for nar_v20_pers_1.csv, as described for Imker 2018.
 * New variables for nar_v20_pers_2.csv:
-  * **access_confirmed** = 
-  * **update_2018** =
-  * **host** =
-  * **host_code** =
-  * **funder** =
-  * **primary_country** =
+  * **access_confirmed** = 1) "yes"" if URL resolves and database available, 2) "no" if URL does not resolve, and 3) "false_positive" if URL resolves but databases not available or use not recommended per notification on database website
+  * **update_2018** = year last updated, if available; otherwise 1) "unknown" if no date found or 2) "not_applicable" if access was not confirmed
+  * **host** = name of organization(s) operating the database, highest level of the organization reported only
+  * **host_code** = "A" for academic, "C" for consortium/collective, "G" forgovernment), "I" for industry, "P" for philanthropic, and "S" for society/association
+  * **funder** = name of organization(s) funding the database, highest level of the organization reported only
+  * **primary_country** = country in which the database appears to be operated out of, reported in ISO 3166-1 alpha-3
   * **multi_sign** = 1) "single" if only one funder was reported, 2) "mult" if multiple funders reported, and 3) "not reported" if no acknowledgement of funding  was found
 * New variables for nar_pers_funder_codes.csv:
- * **funder_code** =
+  * **funder_code** = "A" for academic, "C" for consortium/collective, "G" forgovernment), "I" for industry, "P" for philanthropic, and "S" for society/association
+* New variables for nar_v20_pers_2_supp_tab1.csv
+  * **count_dbs_per_funder** = total count of databases per unique funder
+* New variables for nar_v20_pers_2_supp_tab2.csv
+  * **all_funder_codes** = codes for each unique funder reported in the article
+  * **cond_funder_codes** = codes condensed by funder type (e.g. GGAA = GA)
+  * **count_all_funders_per_db** = total number of all unique funders reported (e.g. GGAA = 4)
+  * **count_funder_types_per_db** = number of unique funder types for (e.g. GA = 2)
 
 ### DATA ANALYSIS
 
-* Note nar_v20_pers_2.csv was created by manual addition of organization and countired to nar_v20_pers_1.csv as each article was reviewed.
+* The initial input data files are nar_v20_7.csv, nar_v20.csv, and nar_id_mapping.csv, which are used to 1) identify databases that have remained available >15 yrs since debuting in NAR and 2) retrieve the global article identifers (usually DOI) for those databases' most recent NAR article.
 
-* Note nar_pers_funder_codes.csv was also created by a manual process that classified each of the funders found in nar_v20_pers_2.csv.
+* Note nar_v20_pers_2.csv was created by manual addition of funding and hosting(operating) organizations as well as countries to nar_v20_pers_1.csv as each article and database was reviewed.
+
+* Note nar_pers_funder_codes.csv was also created by a manual process that classified each of the 89 funders found in nar_v20_pers_2.csv.
 
 #### Program used:
 
@@ -119,10 +129,10 @@ online databases; research infrastructure; sustainability; data sharing, molecul
    * Input file(s):  nar_v20_7.csv, nar_v20.csv, nar_id_mapping.csv
    * Output file(s): nar_v20_pers_1.csv
    
-**STEP 2** Purpose: 
-   * Package(s): tidyverse,
-   * Input file(s): 
-   * Output file(s): 
+**STEP 2** Purpose: Reshape and calculate funder-level metrics for both individual organizations and organizational types
+   * Package(s): tidyverse, moments
+   * Input file(s): nar_v20_pers_2.csv, nar_pers_funder_codes.csv
+   * Output file(s): nar_v20_pers_2_supp_tab1.csv (for table 1 and supp table 1), nar_v20_pers_2_supp_tab2.csv, nar_v20_pers_2_plot.csv, Figure_1_Funders.TIFF
 
 **STEP 3** Purpose: 
    * Package(s): tidyverse, 
