@@ -71,9 +71,12 @@ online databases; research infrastructure; sustainability; data sharing, molecul
   * Figure 1 
   * Figure 2 
 
-* Files necessary to create Tables (in article only)
+* Files necessary to create Tables
   * Table 1: 
   * Table 2:
+  * Supplemental Table 1:
+  * Supplemental Table 2:
+  * Supplemental Table 3:
 
 ### DATASET DESCRIPTION 
 
