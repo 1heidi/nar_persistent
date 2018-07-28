@@ -2,7 +2,7 @@
 ### TABLE OF CONTENTS
 ---------------------
 
-* DATASET TITLE
+* [Dataset Title](#dataset_title)
 * AUTHORS AND AFFILIATIONS
 * LANGUAGE
 * SUMMARY/ABSTRACT
@@ -14,7 +14,7 @@
 * SHARING & ACCESSING INFORMATION
 * ADDITIONAL NOTES/COMMENTS
 
-### DATASET TITLE
+### [dataset_title]
 
 Funding and Operating Organizations for Long-Lived Molecular Biology Databases
 
