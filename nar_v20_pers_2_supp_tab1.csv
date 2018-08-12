@@ -1,0 +1,90 @@
+"funder","funder_code","count_dbs_per_funder"
+"Adam Mickiewicz University","A",1
+"Ministry of Education Culture Sports Science and Technology of Japan","G",6
+"Japan Science and Technology Agency","G",5
+"Kyoto University","A",1
+"University of Tokyo","A",2
+"US National Science Foundation","G",6
+"King Abdelaziz City for Science and Technology","G",1
+"Association des Cytogeneticiens de Langue Francaise","S",1
+"Belgian Society of Human Genetics","S",1
+"Dutch Working Group of Tumor Cytogenetics","C",1
+"European Commission","G",13
+"French Ministry of Higher Education and Scientific Research","G",1
+"Poitiers University Foundation","A",1
+"French National League against Cancer","S",1
+"Cancer Cytogenomics Microarray Consortium US","C",1
+"Berufsverband Deutscher Humangenetiker","S",1
+"UK Biotechnology and Biological Sciences Research Council","G",7
+"Wellcome Trust","P",3
+"Kazusa DNA Research Institute Foundation","P",3
+"US National Institutes of Health","G",29
+"European Molecular Biology Laboratory","G",5
+"Histogenetics","I",1
+"One Lambda Inc","I",1
+"Conexio","I",1
+"Abbott Molecular Laboratories Inc","I",1
+"European Federation for Immunogenetics","S",1
+"GenProbe","I",1
+"LabCorp","I",1
+"Life Technologies","I",1
+"Olersup SSP","I",1
+"454 Sequencing","I",1
+"American Society for Histocompatibility and Immunogenetics","S",1
+"Anthony Nolan","P",1
+"AsiaPacific Histocompatibility and Immunogetics Association","S",1
+"BAG Healthcare","I",1
+"Be the Match Foundation","P",1
+"Deutsche Knochenmarkspenderdatei","P",1
+"Innotrain Diagnostik GMBH","I",1
+"Rose and Zentrum Knochenmarkspender Register Deutschland","P",1
+"Imperial Cancer Research Fund","P",1
+"US Department of Energy","G",7
+"Czech Science Foundation","G",1
+"Swiss National Science Foundation","G",2
+"Agence Nationale de la Recherche","G",2
+"UK Medical Research Council","G",4
+"Lundbeck Foundation","I",1
+"Danish Ministry of Higher Education and Science","G",5
+"Polish National Science Centre","G",1
+"University of Leicester","A",1
+"GlaxoSmithKline","I",1
+"Child Cancer Foundation","P",1
+"Health Research Council of New Zealand","G",1
+"National Centre for Research on Growth and Development","C",1
+"Centre National de la Recherche Scientifique","G",1
+"Ministere de l Enseignement Superieur et de la Recherche","G",1
+"Universite de Montpellier","A",1
+"BioCampus Montpellier","C",1
+"Grand Plateau Technique pour la Recherche","C",1
+"Oxford University Press","A",1
+"Ellison Foundation","P",1
+"University of California Irving","A",1
+"Spanish Ministry of Economy Industry and Competitiveness","G",1
+"Diputacion General de Aragon","G",1
+"Ciber Enfermedades Raras","C",1
+"Sandler Family Supporting Foundation","P",1
+"Polish Ministry of Science and Higher Education","G",1
+"Fonds der Chemischen Industrie eV","S",1
+"National Foundation for Cancer Research","P",1
+"Johns Hopkins University","A",1
+"Howard Hughes Medical Institute","P",2
+"University of Manchester","A",1
+"Royal Society","S",1
+"Engineering and Physical Sciences Research Council","G",1
+"BioFocus","I",1
+"Swiss Federal Office of Education and Science","G",1
+"US Department of Agriculture","G",1
+"New England Biolabs","I",1
+"Science Foundation Ireland","G",1
+"Universidad Nacional Autonoma de Mexico","A",1
+"Isis Pharmaceuticals","I",1
+"Aarhus University","A",2
+"SWEGENE Consortium","C",2
+"Cornell University","A",1
+"Microsoft","I",1
+"German Federal Ministry of Education and Research","G",1
+"BioRegioN GmbH","I",1
+"BIOBASE GmbH","I",1
+"Italian Ministry of Education Universities and Research","G",1
+"Italian National Research Council","G",1
