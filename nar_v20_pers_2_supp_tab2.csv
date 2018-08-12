@@ -1,0 +1,64 @@
+"db_id","resource_name","debut_yr","all_funder_codes","cond_funder_codes","count_all_funders_per_db","count_funder_types_per_db"
+"MBDC0230","5S rRNA Data Bank (Erdmann)",1991,"A","A",1,1
+"MBDC0221","AAIndex: Amino Acid Index Database",1999,"AAGG","AG",4,2
+"MBDC0119","ALFRED: Allele Frequency Database ",2000,"G","G",1,1
+"MBDC0232","ARED: Adenylate uridylate-Rich Elements Database",2001,"G","G",1,1
+"MBDC0122","Atlas of Genetics and Cytogenetics in Oncology and Haematology",1999,"ACCGGSSSS","ACGS",9,4
+"MBDC0258","CATH: Class, Architecture, Topology, Homology",1999,"GGP","GP",3,2
+"MBDC0030","CUTG: Codon Usage Tabulated from GenBank",1991,"GP","GP",2,2
+"MBDC0068","CyanoBase",1998,"GGP","GP",3,2
+"MBDC0072","DB-AT: Database of Apicomplexan Transcriptomes",2001,"GG","G",2,1
+"MBDC0031","DBTBS: Database of Transcription in B. subtilis",2001,"AGG","AG",3,2
+"MBDC0001","DDBJ: DNA Data Bank of Japan",1997,"GG","G",2,1
+"MBDC0108","EcoCyc",1996,"G","G",1,1
+"MBDC0069","EcoGene",2000,"G","G",1,1
+"MBDC0002","EMBL-EBI ENA: European Nucleotide Archive",1991,"GGG","G",3,1
+"MBDC0207","EMBL-EBI InterPro",2001,"GG","G",2,1
+"MBDC0173","EMBL-EBI IPD IMGT/HLA",2001,"GIIIIIIIIIIIPPPPPSSS","GIPS",20,4
+"MBDC0278","EMBL-EBI PDBsum",2001,"GGGGG","G",5,1
+"MBDC0033","EPD: Eukaryotic Promoter Database",1998,"G","G",1,1
+"MBDC0162","ESTHER: ESTerases, alpha-beta Hydrolase Enzymes and Relatives",1996,"G","G",1,1
+"MBDC0071","FlyBase",1994,"GG","G",2,1
+"MBDC0166","GPCRDB: G Protein-Coupled Receptor Database",1998,"GGGI","GI",4,2
+"MBDC0131","GWAS Centeral ",2000,"AGI","AGI",3,3
+"MBDC0015","GXD: mouse Gene Expression Database",1999,"GG","G",2,1
+"MBDC0171","HUGE",1999,"P","P",1,1
+"MBDC0294","IGC: Imprinted Gene Catalogue",2001,"CGP","CGP",3,3
+"MBDC0172","IMGT: ImMunoGeneTics database",1997,"ACCGGGG","ACG",7,3
+"MBDC0075","JGI GOLD: Genomes OnLine Database",2001,"G","G",1,1
+"MBDC0112","KEGG: Kyoto Encyclopedia of Genes and Genomes",1999,"G","G",1,1
+"NAR9161","MBDC: Molecular Biology Database Collection",1999,"AG","AG",2,2
+"MBDC0177","MEROPS",1999,"P","P",1,1
+"MBDC0087","MGD: Mouse Genome Database",1997,"G","G",1,1
+"MBDC0084","MITOMAP",1996,"ACGGGGP","ACGP",7,4
+"MBDC0331","MODBASE",2000,"GGGP","GP",4,2
+"MBDC0152","MTB: Mouse Tumor Biology Database",1999,"G","G",1,1
+"MBDC0007","NCBI COG: Clusters of Orthologous Groups",2000,"G","G",1,1
+"MBDC0003","NCBI Genbank",1991,"G","G",1,1
+"MBDC0270","NCBI MMDB: Molecular Modeling DataBase",1999,"G","G",1,1
+"MBDC0381","ncRNAdb: Noncoding RNAs database",1999,"GPS","GPS",3,3
+"MBDC0143","OMIM: Online Mendelian Inheritance in Man",1994,"AG","AG",2,2
+"MBDC0210","Pfam",1998,"GGPP","GP",4,2
+"MBDC0194","PIR: Protein Identification Resouce",1991,"G","G",1,1
+"MBDC0091","PlasmoDB",2001,"G","G",1,1
+"MBDC0212","PRINTS",1994,"AGGGGIS","AGIS",7,4
+"MBDC0215","PROSITE",1991,"GG","G",2,1
+"MBDC0276","RCSB PDB: Protein Data Bank",2000,"GGG","G",3,1
+"MBDC0243","RDP: Ribosomal Database Project",1991,"GGGG","G",4,1
+"MBDC0224","REBASE: Restriction Enzymes and methylases dataBASE",1991,"I","I",1,1
+"MBDC0021","RECODE",2001,"GG","G",2,1
+"MBDC0116","RegulonDB",1998,"AG","AG",2,2
+"MBDC0195","Ribonuclease P Database",1994,"GI","GI",2,2
+"MBDC0043","rrnDB",2001,"GGG","G",3,1
+"MBDC0282","SCOP: Structural Classification of Proteins",1997,"GG","G",2,1
+"MBDC0357","SGD: Saccharomyces Genome Database",1998,"G","G",1,1
+"MBDC0218","SMART: Simple Modular Architecture Research Tool",1999,"G","G",1,1
+"MBDC0248","SRPDB: Signal Recognition Particle Database",1992,"ACGGG","ACG",5,3
+"MBDC0097","TAIR: The Arabidopsis Information Resource",2001,"AGGI","AGI",4,3
+"MBDC0199","TIGRFAMs",2001,"G","G",1,1
+"MBDC0250","tmRDB: tmRNA database",1998,"ACGGG","ACG",5,3
+"NAR9294","tmRNA Website",1998,"G","G",1,1
+"MBDC0340","TRANSFAC",1996,"GGII","GI",4,2
+"MBDC0252","UTRdb: UnTranslated Regions of eukaryotic mRNAs database",1998,"GG","G",2,1
+"MBDC0051","WormBase",2001,"GGGP","GP",4,2
+"MBDC0101","ZFIN: Zebrafish Information Network",2001,"G","G",1,1
