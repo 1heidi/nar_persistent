@@ -59,7 +59,8 @@ online databases; research infrastructure; sustainability; data sharing, molecul
     * nar_v20.csv
     * nar_v20_7.csv
   
-* The initial input data files are nar_v20_7.csv, nar_v20.csv, and nar_id_mapping.csv.
+* The initial input data files are nar_v20_7.csv, nar_v20.csv, and nar_id_mapping.csv are downloaded in the script, but if that fails they 
+may require manual download.
 
 * Each script is named for its step in the analysis process, with an additional short descriptor (see also “DATA ANALYSIS” section below). As data was reshaped and analyzed, scripts created subsequent CSV files which are named accordingly, e.g., STEP_1_v20_pers_Sample.R created nar_v20_pers_1.csv from the initial input files.
 
