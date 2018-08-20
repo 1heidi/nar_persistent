@@ -4,8 +4,8 @@
 ##Input file(s): nar_v20_pers_2.csv, nar_pers_funder_codes.csv
 ##Output file(s): nar_v20_pers_2_supp_tab1.csv (for table 1 and supp table 1), nar_v20_pers_2_supp_tab2.csv, nar_v20_pers_2_plot.csv, Figure_1_Funders.TIFF
 
-library(tidyverse)
-library(moments)
+# library(tidyverse)
+# library(moments)
 
 pers_2 <- read.csv("nar_v20_pers_2.csv") ## started with nar_v20_pers_1 and reviewed URLs and NAR articles manually to add names of funding and hosting organizations. Org codes for hosts are included in nar_v20_pers_2.csv. Databases reported multiple funders (89 unique) and org codes had be assigned to these funders separately in nar_pers_funder_codes.csv. Funder codes are then mapped to nar_v20_pers_2.csv in the script below.
 

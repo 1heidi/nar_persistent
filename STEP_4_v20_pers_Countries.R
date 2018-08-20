@@ -4,7 +4,7 @@
 ##Input file(s): nar_v20_pers_2.csv
 ##Output file(s): nar_v20_pers_4_plot.csv, Figure_2A_Countries.TIFF
 
-library(tidyverse)
+# library(tidyverse)
 
 pers_2 <- read.csv("nar_v20_pers_2.csv") ## see notes on origin of this file in the script for STEP 2 and the Readme file for this dataset
 

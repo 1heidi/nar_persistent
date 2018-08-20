@@ -2,3 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# Downloaded files that need not be kept
+nar_v20.csv
+nar_id_mapping.csv
