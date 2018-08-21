@@ -154,6 +154,14 @@ may require manual download.
 
 #### There are 4 scripts that work sequentially:
 
+##### Easy Way
+**STEP 1** Run `main.R`. This will run each of the steps below. This should work fine, without having to download any external data files and it will also install any dependencies.
+
+
+#### Harder Way
+
+This will require you installing dependencies yourself. There are commented lines in each file to load the libraries, but you will need to install the packages if you don't have them. They should still download external data files though.
+
 **STEP 1** SAMPLE Purpose: Descriptive stats for databases >15 years old as found in original NAR study
    * Package(s): tidyverse
    * Input file(s):  nar_v20_7.csv, nar_v20.csv, nar_id_mapping.csv
