@@ -4,8 +4,8 @@
 ##Input file(s): nar_v20_pers_2.csv
 ##Output file(s): nar_v20_pers_3_plot.csv, nar_v20_pers_2_supp_tab3.csv, Figure_2B_Hosts.TIFF
 
-library(tidyverse)
-library(moments)
+# library(tidyverse)
+# library(moments)
 
 pers_2 <- read.csv("nar_v20_pers_2.csv") ## see notes on origin of this file in the script for STEP 2 and the Readme file for this dataset
 
