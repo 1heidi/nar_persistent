@@ -188,7 +188,7 @@ This will require you installing dependencies yourself. There are commented line
 
 ### ACKNOWLEDGEMENTS
 
-The author is also grateful to Robert Olendorf and Hoa Luong from the Data Curation Network (http://datacurationnetwork.org) for careful curation of the dataset as well as independent verification that the code executed as expected.
+The author is grateful to Robert Olendorf and Hoa Luong from the Data Curation Network (http://datacurationnetwork.org) for careful curation of the dataset as well as independent verification that the code executed as expected.
 
 ### ADDITIONAL NOTES/COMMENTS
 

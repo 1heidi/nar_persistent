@@ -190,7 +190,7 @@ This will require you installing dependencies yourself. There are commented line
    * Imker, Heidi (2018): Funders and Operators of Long-Lived Molecular Biology Databases. University of Illinois at Urbana-Champaign. https://doi.org/10.13012/B2IDB-3993338_V1
 
 ### ACKNOWLEDGEMENTS
-The author is also grateful to Robert Olendorf and Hoa Luong from the Data Curation Network (http://datacurationnetwork.org) for careful curation of the dataset as well as independent verification that the code executed as expected. 
+The author is grateful to Robert Olendorf and Hoa Luong from the Data Curation Network (http://datacurationnetwork.org) for careful curation of the dataset as well as independent verification that the code executed as expected. 
 
 ### ADDITIONAL NOTES/COMMENTS
 
