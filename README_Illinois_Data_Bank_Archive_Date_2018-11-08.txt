@@ -11,6 +11,7 @@
 * DATA DICTIONARY
 * DATA ANALYSIS
 * SHARING & ACCESSING INFORMATION
+* ACKNOWLEDGEMENTS
 * ADDITIONAL NOTES/COMMENTS
 
 ### DATASET TITLE
@@ -184,6 +185,10 @@ This will require you installing dependencies yourself. There are commented line
 * **Informally:** Please cite this dataset regardless. It matters to me, and provenance is important. The citation is:
 
    * Imker, Heidi (2018): Funders and Operators of Long-Lived Molecular Biology Databases. University of Illinois at Urbana-Champaign. https://doi.org/10.13012/B2IDB-3993338_V1
+
+### ACKNOWLEDGEMENTS
+
+“The author is also grateful to Robert Olendorf and Hoa Luong from the Data Curation Network (datacurationnetwork.org/) for careful curation of the dataset as well as independent verification that the code executed as expected.” 
 
 ### ADDITIONAL NOTES/COMMENTS
 
