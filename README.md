@@ -35,11 +35,11 @@ The organizations that contribute to the longevity of 67 long-lived molecular bi
 
 * Please read the associated openly available research article for context, additional details, and results: 
 
-  * Imker, Heidi (2018): Who Bears the Burden of Long-Lived Molecular Biology Databases? bioRxiv, TBD
+  * Imker, Heidi (2018): Who Bears the Burden of Long-Lived Molecular Biology Databases? bioRxiv, (see Illinois Data Bank page for link)
 
 * The archived dataset that accompanies the preprint is also available at:
 
-  * Imker, Heidi (2018): Funders and Operators of Long-Lived Molecular Biology Databases. University of Illinois at Urbana-Champaign. TBD
+  * Imker, Heidi (2018): Funders and Operators of Long-Lived Molecular Biology Databases. University of Illinois at Urbana-Champaign. https://doi.org/10.13012/B2IDB-3993338_V1
   
 ### KEYWORDS
 
@@ -47,22 +47,21 @@ online databases; research infrastructure; sustainability; data sharing, molecul
 
 ### FILE ORGANIZATION
 
-* This dataset consists of 22 files:
+* This dataset consists of 20 files:
   * 1 Readme file (MD)
   * 1 Readme file for dataset archived in the Illinios Data Bank (TXT)
   * 3 image files of figures (TIFF)
   * 1 R project file (RPROJ)
   * 9 new data files (CSV) 
-  * 4 R script files (R)
-  * Additionaly, three data files are used from https://doi.org/10.13012/B2IDB-4311325_V1:
+  * 5 R script files (R)
+  * Additionaly, three input data files are used from https://doi.org/10.13012/B2IDB-4311325_V1:
     * nar_id_mapping.csv
     * nar_v20.csv
     * nar_v20_7.csv
   
-* The initial input data files are nar_v20_7.csv, nar_v20.csv, and nar_id_mapping.csv are downloaded in the script, but if that fails they 
-may require manual download.
+* The initial input data files are nar_v20_7.csv, nar_v20.csv, and nar_id_mapping.csv are downloaded in the script, but if that fails they may require manual download.
 
-* Each script is named for its step in the analysis process, with an additional short descriptor (see also “DATA ANALYSIS” section below). As data was reshaped and analyzed, scripts created subsequent CSV files which are named accordingly, e.g., STEP_1_v20_pers_Sample.R created nar_v20_pers_1.csv from the initial input files.
+* Each script is named for its step in the analysis process, with an additional short descriptor (see also “DATA ANALYSIS” section below). As data was reshaped and analyzed, scripts created subsequent CSV files which are named accordingly, e.g., STEP_1_v20_pers_Sample.R created nar_v20_pers_1.csv from the initial input files. The "main.R" script automates running of individual scripts. 
 
 * In file names, "pers" stands for "persistent" to distinguish this sub-project from the first NAR census study already reported.
 
@@ -151,19 +150,19 @@ may require manual download.
   * tibble_1.4.2    
   * ggplot2_2.2.1  
   * tidyverse_1.1.1
+  * RCurl_1.95-4.8 
 
 #### There are 4 scripts that work sequentially:
 
-##### Easy Way
-**STEP 1** Run `main.R`. This will run each of the steps below. This should work fine, without having to download any external data files and it will also install any dependencies.
+##### Automated
+Running `main.R` will run each of the steps below. This should work fine without having to download any external data files, and it will also install any dependencies.
 
+#### Individual Steps
 
-#### Harder Way
-
-This will require you installing dependencies yourself. There are commented lines in each file to load the libraries, but you will need to install the packages if you don't have them. They should still download external data files though.
+This will require you installing dependencies yourself. There are commented lines in each file to load the libraries, but you will need to install the packages if you don't have them. They should still download external data files though in STEP 1. 
 
 **STEP 1** SAMPLE Purpose: Descriptive stats for databases >15 years old as found in original NAR study
-   * Package(s): tidyverse
+   * Package(s): tidyverse, RCurl
    * Input file(s):  nar_v20_7.csv, nar_v20.csv, nar_id_mapping.csv
    * Output file(s): nar_v20_pers_1.csv
    
@@ -187,7 +186,7 @@ This will require you installing dependencies yourself. There are commented line
 * **Formally:** CC0 to facilitate ease-of-use
 * **Informally:** Please cite this dataset regardless. It matters to me, and provenance is important. The citation is:
 
-   * Imker, Heidi (2018): Funders and Operators of Long-Lived Molecular Biology Databases. University of Illinois at Urbana-Champaign. TBD
+   * Imker, Heidi (2018): Funders and Operators of Long-Lived Molecular Biology Databases. University of Illinois at Urbana-Champaign. https://doi.org/10.13012/B2IDB-3993338_V1
 
 ### ADDITIONAL NOTES/COMMENTS
 

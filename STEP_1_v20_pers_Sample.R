@@ -1,15 +1,17 @@
 ## STEP 1: Descriptive stats for databases the 105 databases >15 years old as found in original nar study
-##Package(s): tidyverse
+##Package(s): tidyverse, RCurl
 ##Input file(s): nar_v20_7.csv, nar_v20.csv, nar_id_mapping.csv
 ##Output file(s): nar_v20_pers_1.csv
 
 # library(tidyverse)
+# library(RCurl)
 
 ## First get a list of the databases >15 years old from nar_v20_7 since those have citation quartiles and maintenance updates (may want to evaluate based on these variables). This file does not include the article DOI though, so will then need the original nar_v20.csv and nar_id_mapping.csv files from Imker 2018 (see readme).
 
+## User may download the file(s) themselves 
 ## nar_v20_7 <- read.csv("nar_v20_7.csv")
 
-## Rather than force the user to find and download the file, download and parse direclty.
+## Or download and parse direclty
 url <- "https://databank.illinois.edu/datafiles/g2ood/download"
 nar_v20_7 <- read_csv(getURL(url))
 nar_v20_7_oldest <- filter(nar_v20_7, debut_yr < 2002)
@@ -19,7 +21,6 @@ nar_v20_7_oldest <- select(nar_v20_7_oldest, -maintdiff, -maint_aft_debut)
 url <- "https://databank.illinois.edu/datafiles/5474s/download"
 download.file(url, "nar_v20.csv")
 nar_v20 <- read_csv("nar_v20.csv")
-
 
 url <- "https://databank.illinois.edu/datafiles/h6r78/download"
 download.file(url, "nar_id_mapping.csv")
