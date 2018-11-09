@@ -46,10 +46,9 @@ online databases; research infrastructure; sustainability; data sharing, molecul
 
 ### FILE ORGANIZATION
 
-* This dataset consists of 19 files:
+* This dataset consists of 18 files:
   * 1 Readme file for dataset archived in the Illinios Data Bank (TXT)
   * 3 image files of figures (TIFF)
-  * 1 R project file (RPROJ)
   * 9 new data files (CSV) 
   * 5 R script files (R)
   * Additionaly, three input data files are used from https://doi.org/10.13012/B2IDB-4311325_V1:
