@@ -188,7 +188,7 @@ This will require you installing dependencies yourself. There are commented line
 * **Formally:** CC0 to facilitate ease-of-use
 * **Informally:** Please cite this dataset regardless. It matters to me, and provenance is important. The citation is:
 
-   * Imker, Heidi (2018): Funders and Operators of Long-Lived Molecular Biology Databases. University of Illinois at Urbana-Champaign. https://doi.org/10.13012/B2IDB-3993338_V1
+   * Imker, Heidi (2018): Funding and Operating Organizations for Long-Lived Molecular Biology Databases. University of Illinois at Urbana-Champaign. https://doi.org/10.13012/B2IDB-3993338_V1
 
 ### ACKNOWLEDGEMENTS
 The author is grateful to Robert Olendorf and Hoa Luong from the Data Curation Network (http://datacurationnetwork.org) for careful curation of the dataset as well as independent verification that the code executed as expected. 
