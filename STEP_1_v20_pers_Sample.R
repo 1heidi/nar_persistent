@@ -36,11 +36,12 @@ nar_v20_doi_latest <- nar_v20_doi %>%
 
 ## merge the oldest database (nar_v20_7_oldest) with their newest articles (nar_v20_doi_latest)
 
-nar_v20_pers <- left_join(nar_v20_7_oldest, nar_v20_doi_latest, by = "db_id")
+nar_v20_pers <- left_join(nar_v20_7_oldest, nar_v20_doi_latest, by = "db_id", row.names = FALSE)
+nar_v20_pers <- rename(nar_v20_pers, resource_name = resource_name.x) 
 nar_v20_pers <- distinct(nar_v20_pers) ##returns 105
 
-nar_v20_pers <- select(nar_v20_pers, article_id, article_year, article_global_id, db_id, resource_name.x, status, debut_yr, total_articles, total_citations, db_last_update, quartile, notes)
+nar_v20_pers <- select(nar_v20_pers, article_id, article_year, article_global_id, db_id, resource_name, status, debut_yr, total_articles, total_citations, db_last_update, quartile, notes)
 
-write.csv(nar_v20_pers, "nar_v20_pers_1.csv", row.names = FALSE )
+write.csv(nar_v20_pers, "nar_v20_pers_1.csv", row.names = FALSE)
 
 ## using nar_v20_pers_1.csv, manually review NAR papers via DOI and add data for the host and funding organizations AND use the URL to check if each database is still available. The resulting csv from that manual process will be called nar_v20_pers_2.csv.

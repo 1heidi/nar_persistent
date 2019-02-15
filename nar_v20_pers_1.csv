@@ -1,4 +1,4 @@
-"article_id","article_year","article_global_id","db_id","resource_name.x","status","debut_yr","total_articles","total_citations","db_last_update","quartile","notes"
+"article_id","article_year","article_global_id","db_id","resource_name","status","debut_yr","total_articles","total_citations","db_last_update","quartile","notes"
 2531,2013,"10.1093/nar/gks1067","MBDC0215","PROSITE","yes",1991,13,5812,2017,1,"not_applicable"
 837,2003,"10.1093/nar/gkg095","NAR9288","SWISS-PROT","yes",1991,10,5258,2017,1,"not_applicable"
 907,2004,"10.1093/nar/gkh065","MBDC0463","European Ribosomal RNA Database","yes",1991,17,2134,2007,2,"Provenance; excellent history - contains large and small and also update information"

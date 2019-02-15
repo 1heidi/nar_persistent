@@ -49,11 +49,11 @@ unique_hosts <- pers_2_host_filt2  %>%
 
 unique_hosts <- distinct(select(unique_hosts, host, host_code, db_per_host))
 
-write.csv(unique_hosts, "nar_v20_pers_2_supp_tab3.csv", row.names = FALSE)
-
 unique_hosts <- unique_hosts  %>%
   group_by(host_code) %>%
     mutate(count_hosts_by_code = sum(length(host_code)))
+
+write.csv(unique_hosts, "nar_v20_pers_2_supp_tab3.csv", row.names = FALSE)
 
 library(moments)
 hist(unique_hosts$db_per_host)

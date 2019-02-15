@@ -1,51 +1,51 @@
-"host","host_code","db_per_host"
-"Adam Mickiewicz University","A",1
-"Kyoto University","A",2
-"Yale University","A",1
-"King Faisal Specialist Hospital and Research Center","G",1
-"Institute of Scientific and Technical Information","G",1
-"University College London","A",1
-"Kazusa DNA Research Institute","P",3
-"University of Tokyo","A",2
-"DDJB Center","G",1
-"SRI International","P",1
-"University of Miami","A",1
-"European Molecular Biology Laboratory","G",8
-"Swiss Institute of Bioinformatics","G",4
-"French National Institute for Agricultural Research","G",1
-"FLyBase Consortium","C",1
-"University of Copenhagen","A",1
-"University of Leicester","A",1
-"Jackson Laboratory","P",3
-"US National Institutes of Health","G",4
-"University of Otago","A",1
-"Universite de Montpellier","A",1
-"DOE Joint Genome Institute","G",1
-"Oxford University Press","A",1
-"University of California Irving","A",1
-"University of California San Francisco","A",1
-"Institute of Bioorganic Chemistry Polish Academy of Sciences","S",1
-"Johns Hopkins University","A",1
-"University of Delaware","A",1
-"Georgetown University Medical Center","A",1
-"EuPathDB Consortium","C",1
-"University of Manchester","A",1
-"Rutgers University","A",1
-"The State University of New Jersey","A",1
-"University of California San Diego","A",1
-"Michigan State University","A",1
-"New England Biolabs","I",1
-"University College Cork","A",1
-"National Autonomous University of Mexico","A",1
-"North Carolina State University","A",1
-"University of Michigan","A",1
-"MRC Laboratory of Molecular Biology","G",1
-"Stanford University","A",1
-"Center for NonCoding RNA in Technology and Health","C",2
-"Phoenix Bioinformatics Corporation","P",1
-"J Craig Venter Institute","P",1
-"Sandia National Laboratories","G",1
-"GeneXplain","I",1
-"University of Bari","A",1
-"Wormbase Consortium","C",1
-"University of Oregon","A",1
+"host","host_code","db_per_host","count_hosts_by_code"
+"Adam Mickiewicz University","A",1,28
+"Kyoto University","A",2,28
+"Yale University","A",1,28
+"King Faisal Specialist Hospital and Research Center","G",1,10
+"Institute of Scientific and Technical Information","G",1,10
+"University College London","A",1,28
+"Kazusa DNA Research Institute","P",3,5
+"University of Tokyo","A",2,28
+"DDJB Center","G",1,10
+"SRI International","P",1,5
+"University of Miami","A",1,28
+"European Molecular Biology Laboratory","G",8,10
+"Swiss Institute of Bioinformatics","G",4,10
+"French National Institute for Agricultural Research","G",1,10
+"FLyBase Consortium","C",1,4
+"University of Copenhagen","A",1,28
+"University of Leicester","A",1,28
+"Jackson Laboratory","P",3,5
+"US National Institutes of Health","G",4,10
+"University of Otago","A",1,28
+"Universite de Montpellier","A",1,28
+"DOE Joint Genome Institute","G",1,10
+"Oxford University Press","A",1,28
+"University of California Irving","A",1,28
+"University of California San Francisco","A",1,28
+"Institute of Bioorganic Chemistry Polish Academy of Sciences","S",1,1
+"Johns Hopkins University","A",1,28
+"University of Delaware","A",1,28
+"Georgetown University Medical Center","A",1,28
+"EuPathDB Consortium","C",1,4
+"University of Manchester","A",1,28
+"Rutgers University","A",1,28
+"The State University of New Jersey","A",1,28
+"University of California San Diego","A",1,28
+"Michigan State University","A",1,28
+"New England Biolabs","I",1,2
+"University College Cork","A",1,28
+"National Autonomous University of Mexico","A",1,28
+"North Carolina State University","A",1,28
+"University of Michigan","A",1,28
+"MRC Laboratory of Molecular Biology","G",1,10
+"Stanford University","A",1,28
+"Center for NonCoding RNA in Technology and Health","C",2,4
+"Phoenix Bioinformatics Corporation","P",1,5
+"J Craig Venter Institute","P",1,5
+"Sandia National Laboratories","G",1,10
+"GeneXplain","I",1,2
+"University of Bari","A",1,28
+"Wormbase Consortium","C",1,4
+"University of Oregon","A",1,28

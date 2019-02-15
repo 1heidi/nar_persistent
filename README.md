@@ -40,22 +40,22 @@ The organizations that contribute to the longevity of 67 long-lived molecular bi
 
 * The archived dataset that accompanies the preprint is also available at:
 
-  * Imker, Heidi (2018): Funders and Operators of Long-Lived Molecular Biology Databases. University of Illinois at Urbana-Champaign. https://doi.org/10.13012/B2IDB-3993338_V1
+  * Imker, Heidi (2018): Funding and Operating Organizations for Long-Lived Molecular Biology Databases. University of Illinois at Urbana-Champaign. https://doi.org/10.13012/B2IDB-3993338_V1
   
 ### KEYWORDS
 
-online databases; research infrastructure; sustainability; data sharing, molecular biology; bioinformatics
+online databases; research infrastructure; sustainability; data sharing; molecular biology; bioinformatics
 
 ### FILE ORGANIZATION
 
 * This dataset consists of 20 files:
   * 1 Readme file (MD)
-  * 1 Readme file for dataset archived in the Illinios Data Bank (TXT)
+  * 1 Readme file for dataset archived in the Illinois Data Bank (TXT)
   * 3 image files of figures (TIFF)
   * 1 R project file (RPROJ)
   * 9 new data files (CSV) 
   * 5 R script files (R)
-  * Additionaly, three input data files are used from https://doi.org/10.13012/B2IDB-4311325_V1:
+  * Additionally, three input data files are used from https://doi.org/10.13012/B2IDB-4311325_V1:
     * nar_id_mapping.csv
     * nar_v20.csv
     * nar_v20_7.csv
@@ -73,12 +73,12 @@ online databases; research infrastructure; sustainability; data sharing, molecul
 * Files necessary to create Figures
   * Figure 1 STEP_2_v20_pers_Funders.R & nar_v20_pers_2_plot.csv
   * Figure 2 
-    * Panel A: STEP_2_v20_pers_Countries.R & nar_v20_pers_4_plot.csv
-    * Panel B: STEP_2_v20_pers_Hosts.R & nar_v20_pers_3_plot.csv
+    * Panel A: STEP_4_v20_pers_Countries.R & nar_v20_pers_4_plot.csv
+    * Panel B: STEP_3_v20_pers_Hosts.R & nar_v20_pers_3_plot.csv
 
 * Files necessary to create Tables
   * Table 1 and Supplemental Table 1: STEP_2_v20_pers_Funders.R & nar_v20_pers_2_supp_tab1.csv
-  * Table 2 and Supplemental Table 3: STEP_2_v20_pers_Hosts.R & nar_v20_pers_2_supp_tab3.csv
+  * Table 2 and Supplemental Table 3: STEP_3_v20_pers_Hosts.R & nar_v20_pers_2_supp_tab3.csv
   * Supplemental Table 2: STEP_2_v20_pers_Funders.R & nar_v20_pers_2_supp_tab2.csv
 
 ### DATASET DESCRIPTION 
@@ -99,13 +99,13 @@ online databases; research infrastructure; sustainability; data sharing, molecul
 
 * Variables for nar_v20_pers_1.csv, as described at above referenced for source data.
 * New variables for nar_v20_pers_2.csv:
-  * **access_confirmed** = 1) "yes"" if URL resolves and database available, 2) "no" if URL does not resolve, and 3) "false_positive" if URL resolves but databases not available or use not recommended per notification on database website
+  * **access_confirmed** = 1) "yes"" if URL resolves and database available, 2) "no" if URL does not resolve, 3) "false_positive" if URL resolves but databases not available or use not recommended per notification on database website, and 4) "file archive" if no longer available as an online database
   * **update_2018** = year last updated, if available; otherwise 1) "unknown" if no date found or 2) "not_applicable" if access was not confirmed
-  * **host** = name of organization(s) operating the database, highest level of the organization reported only
-  * **host_code** = "A" for academic, "C" for consortium/collective, "G" forgovernment), "I" for industry, "P" for philanthropic, and "S" for society/association
-  * **funder** = name of organization(s) funding the database, highest level of the organization reported only
-  * **primary_country** = country in which the database appears to be operated out of, reported in ISO 3166-1 alpha-3
-  * **multi_sign** = 1) "single" if only one funder was reported, 2) "mult" if multiple funders reported, and 3) "not reported" if no acknowledgement of funding  was found
+  * **host** = name of organization(s) operating the database, highest level of the organization reported only; "not_applicable" if access was not confirmed
+  * **host_code** = "A" for academic, "C" for consortium/collective, "G" for government, "I" for industry, "P" for philanthropic, and "S" for society/association; "not_applicable" if access was not confirmed
+  * **funder** = name of organization(s) funding the database, highest level of the organization reported only; "not_applicable" if access was not confirmede
+  * **primary_country** = country in which the database appears to be operated out of, reported in ISO 3166-1 alpha-3; "not_applicable" if access was not confirmed
+  * **multi_sign** = 1) "single" if only one funder was reported, 2) "multi" if multiple funders reported, 3) "not reported" if no acknowledgement of funding was found, and 4) "not_applicable" if access was not confirmed
 * New variables for nar_pers_funder_codes.csv:
   * **funder_code** = "A" for academic, "C" for consortium/collective, "G" forgovernment), "I" for industry, "P" for philanthropic, and "S" for society/association
 * New variables for nar_v20_pers_2_supp_tab1.csv
@@ -116,12 +116,12 @@ online databases; research infrastructure; sustainability; data sharing, molecul
   * **count_all_funders_per_db** = total number of all unique funders reported (e.g. GGAA = 4)
   * **count_funder_types_per_db** = number of unique funder types for (e.g. GA = 2)
 * New variables for nar_v20_pers_2_supp_tab3.csv
-  * **dbs_per_host** = number of databases operated by each unique host
+  * **db_per_host** = number of databases operated by each unique host
   * **count_hosts_per_code** = count of the number of hosts per code (e.g. total number of hosts classified as A (academic), etc.)
 
 ### DATA ANALYSIS
 
-* The initial input data files nar_v20_7.csv, nar_v20.csv, and nar_id_mapping.csv were used to 1) identify databases that have remained available >15 yrs since debuting in NAR and 2) retrieve the global article identifers (usually DOI) for those databases' most recent NAR article.
+* The initial input data files nar_v20_7.csv, nar_v20.csv, and nar_id_mapping.csv were used to 1) identify databases that have remained available >15 yrs since debuting in NAR and 2) retrieve the global article identifiers (usually DOI) for those databases' most recent NAR article.
 
 * Note nar_v20_pers_2.csv was created by manual addition of funding and hosting(operating) organizations as well as countries to nar_v20_pers_1.csv as each article and database was reviewed.
 
@@ -149,9 +149,10 @@ online databases; research infrastructure; sustainability; data sharing, molecul
   * readr_1.1.1     
   * tidyr_0.8.1    
   * tibble_1.4.2    
-  * ggplot2_2.2.1  
+  * ggplot2_3.1.0  
   * tidyverse_1.1.1
   * RCurl_1.95-4.8 
+  * bitops_1.0-6 
 
 #### There are 4 scripts that work sequentially:
 
